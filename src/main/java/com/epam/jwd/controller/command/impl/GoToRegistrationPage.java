@@ -12,7 +12,7 @@ public class GoToRegistrationPage implements Command {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/registration.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/signin.jsp");
         requestDispatcher.forward(request, response);
 
     }

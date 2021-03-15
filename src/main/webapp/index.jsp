@@ -8,6 +8,7 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="/Controller">Controller Servlet</a>
+<a href="registration.jsp">registration</a>
+
 </body>
 </html>
